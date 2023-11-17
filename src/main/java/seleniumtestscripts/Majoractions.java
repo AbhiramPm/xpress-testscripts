@@ -2,6 +2,7 @@ package seleniumtestscripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,6 +10,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import okhttp3.Cookie;
 
 public class Majoractions {
 
@@ -187,7 +190,15 @@ public class Majoractions {
             actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
 
         } finally {
-            // Close the browser window
+        
+        	
+        	
+        	
+        	//
+        	
+        	//
+        	
+        	//// Close the browser window
 	}
 
 	}}
